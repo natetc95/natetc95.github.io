@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Press+Start+2P');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    background: #F1F1F1;
+}
+
+.title {
+    margin: 50px 0px 0px -100px;
+    font-family: 'Press Start 2P', cursive;
+    height: 50px;
+    width: 450px;
+    transform: rotate(-10deg);
+    font-size: 48px;
+}
+
+.subtitle {
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.content {
+    position: relative;
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.leftinfo {
+    text-align: center;
+    position: relative;
+    width: 200px;
+    height: 100%;
+    margin-top: 50px;
+    float: left;
+}
+
+.rightinfo {
+    text-align: center;
+    position: relative;
+    width: 600px;
+    height: 100%;
+    margin-top: 50px;
+    float: left;
+}
+
+.projectview {
+    height: 310px;
+    width: 270px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background: white;
+    box-shadow: 0px 2px 2px #E8E8E8;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.moreinfo {
+    text-decoration: none;
+    height: 25px;
+    width: 100px;
+    float: right;
+    margin-top: -5px;
+    margin-right: 10px;
+    border: 1px solid #E8E8E8;
+    border-radius: 3px;
+    line-height: 25px;
+    cursor: pointer;
+    vertical-align: center;
+    transition: 0.3s;
+    color: #E8E8E8;
+}
+
+.moreinfo i {
+    font-size: 12px;
+}
+
+.moreinfo:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+.github {
+    text-decoration: none;
+    height: 25px;
+    width: 100px;
+    float: left;
+    margin-top: -5px;
+    margin-left: 10px;
+    border: 1px solid #E8E8E8;
+    border-radius: 3px;
+    line-height: 25px;
+    cursor: pointer;
+    vertical-align: center;
+    transition: 0.3s;
+    color: #E8E8E8;
+}
+
+.github:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+.projectview img {
+    margin: 10px;
+    height: 150px;
+}
+
+.info {
+    width: 270px;
+    float: left;
+    overflow: hidden;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+
