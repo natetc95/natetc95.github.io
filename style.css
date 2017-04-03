@@ -34,7 +34,7 @@ body {
 }
 
 .leftinfo {
-    text-align: center;
+    text-align: left;
     position: relative;
     width: 200px;
     height: 100%;
